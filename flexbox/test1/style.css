@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */ 
+    /* flex-flow: row wrap; */
+
+    justify-content: space-evenly;
+/* 
+    align-items: center; */
+
+
+}
+
+#sty{
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    text-align: center;
+    font-size: 16pt;
+    order: 2;
+}

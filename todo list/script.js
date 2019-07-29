@@ -34,7 +34,7 @@ function doFunction2(){
             console.log('sanchit')
             
             items[i].parentNode.removeChild(items[i])
-            i=0;
+            i=-1;
         }
         
     }

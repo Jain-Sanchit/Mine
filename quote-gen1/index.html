@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body{
+    background-image : url("index4.jpg");
+    background-repeat: no-repeat;
+        height: 100%;
+        background-size: cover;
+}
+
+h1{
+    margin-left: 25%;
+    margin-top: 40px;
+    color: antiquewhite;
+    font-size: 35px;
+}
+button{
+    position: absolute;
+    bottom: 150px;
+    left: 540px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+blockquote {
+  border-left: 10px solid rgb(186, 219, 40);
+  margin: 50px 10px 0px 20%;
+  padding: 10px 30px;
+}
+blockquote:before {
+  color: #ccc;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+#quotetext{
+    color: azure;
+    font-size: 28px;
+    font-family: monospace
+}
+blockquote footer {
+	font-size:22px;
+	text-align:right;
+    color: rgb(186, 219, 40);
+}
+#quotesource{
+    margin-top:20px;
+    /* color: blanchedalmond;
+    text-align: right; */
+}
+.container{
+    width: 70%;
+}
+</style>
+<body>
+
+    <h1>Best Quotes Of All Time</h1>
+    <div class="container">
+    <blockquote>
+            <h2 id="quotetext"></h2>
+            <footer id="quotesource"></footer>
+
+    </blockquote>
+    <button onclick="GetQuote()" type="button" class="btn btn-dark" id="btn1">New Quote</button>
+</div>
+        
+
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,76 @@
+.navbar-light{
+    background-color: green;
+}
+.navbar-text{
+    margin-left:5%;
+}
+.details-nav{
+    margin-right: 10%;
+}
+
+.bg-light{
+    height: 80px;
+}
+
+.navImage{
+    height: 65px;
+    width: 65px;
+
+}
+.navImage2{
+    height: 75px;
+    width: 150px;
+    margin-left: 0;
+}
+.navbar-nav{
+    display: inline;
+}
+.navbar-brand{
+    margin-left: 15%;
+}
+
+.nav-item{
+    margin: 12px;
+    width: 10%;
+    text-align: center;
+
+}
+
+.w-100{
+    height: 320px;
+    
+}
+
+h1{
+    
+    color: chartreuse;
+    text-align: center;
+    font-family: cursive;
+}
+hr{
+    align-self: center;
+    width: 500px;
+    color: cyan; 
+}
+.card-title{
+    text-align: center;
+    
+}
+
+.card-body{
+
+    background-color: #0ed4f3;
+}
+.card-text{
+    text-align: center;
+    font: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+footer{
+    background-color: chocolate;
+    height: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: aliceblue;
+    text-align: center;
+}
